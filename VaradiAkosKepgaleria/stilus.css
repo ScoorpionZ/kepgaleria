@@ -1,0 +1,23 @@
+main{
+    width:80%;
+    max-width: 800px;
+    margin:auto;
+    padding:10px;
+    background-color: white;
+}
+section{
+    display: grid;
+    grid-template-columns: 50px auto 50px;
+    /* grid-template-rows: 100px auto 100px; */
+    grid-gap: 10px;
+}
+article{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: 100px 100px 100px; */
+    grid-gap: 10px;
+}
+
+img{
+    max-width: 100%;
+}
